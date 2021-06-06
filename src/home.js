@@ -1,4 +1,7 @@
+import navBar from "./navBar"
+
 const welcomeMsg = function() {
+  navBar();
   let mainContainer = document.createElement("main");
   mainContainer.classList.add("mainContainer");
   let content = document.querySelector("#content");
