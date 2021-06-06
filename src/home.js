@@ -1,4 +1,4 @@
-const welcomeMsg = (function() {
+const welcomeMsg = function() {
   let mainContainer = document.createElement("main");
   mainContainer.classList.add("mainContainer");
   let content = document.querySelector("#content");
@@ -16,6 +16,6 @@ const welcomeMsg = (function() {
     mainContainer,
     content,
   };
-})();
+};
 
 export { welcomeMsg };

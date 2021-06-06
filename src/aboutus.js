@@ -1,12 +1,14 @@
 import { welcomeMsg } from "./home.js";
 
 const about = (function(){
-  welcomeMsg.mainContainer.classList.add("mainContainer");
+  let mainContainer = document.createElement("main");
+  mainContainer.classList.add("mainContainer");
+  let content = document.querySelector("#content");
   let aboutUs = document.createElement("h1");
   aboutUs.classList.add("aboutText");
-  welcome.textContent = "All About The French Kitchen!";
+  aboutUs.textContent = "About Us"
   content.appendChild(mainContainer);
-  welcomeMsg.mainContainer.appendChild(aboutUs);
+  mainContainer.appendChild(aboutUs);
 })();
 
 export default { about };

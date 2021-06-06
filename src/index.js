@@ -1,5 +1,2 @@
 import welcomeMsg from "./home"
-// import about from "./aboutus"
-
-welcomeMsg();
-// about();
+import about from "./aboutus"
