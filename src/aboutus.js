@@ -1,6 +1,5 @@
-import { welcomeMsg } from "./home.js";
 
-const about = (function(){
+const about = function(){
   let mainContainer = document.createElement("main");
   mainContainer.classList.add("mainContainer");
   let content = document.querySelector("#content");
@@ -9,6 +8,6 @@ const about = (function(){
   aboutUs.textContent = "About Us"
   content.appendChild(mainContainer);
   mainContainer.appendChild(aboutUs);
-})();
+};
 
-export default { about };
+export  { about };

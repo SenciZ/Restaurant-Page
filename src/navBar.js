@@ -1,4 +1,5 @@
 import { welcomeMsg } from "./home";
+import { about } from "./aboutus";
 
 
 const navBar = function(){
@@ -28,22 +29,21 @@ const navBar = function(){
     liHome.textContent = "Home";
 
     liHome.addEventListener("click", function(){
-        if(container.firstChild){
-            while (container.firstChild) {
-                container.removeChild(container.firstChild);
-              }
+        if(container.lastChild){
+                container.removeChild(container.lastChild);
+                container.appendChild(navBar);
+
         }
         welcomeMsg();
     })
     let liAbout = document.createElement("li");
     liAbout.textContent = "About Us";
     liAbout.addEventListener("click", function(){
-        if(container.firstChild){
-            while (container.firstChild) {
-                container.removeChild(container.firstChild);
-              }
+        if(container.lastChild){
+                container.removeChild(container.lastChild);
+                container.appendChild(navBar);
         }
-        welcomeMsg();
+        about();
     })
 
 
@@ -52,20 +52,20 @@ const navBar = function(){
     let liMenu = document.createElement("li");
     liMenu.textContent = "Menu";
     liMenu.addEventListener("click", function(){
-        if(container.firstChild){
-            while (container.firstChild) {
-                container.removeChild(container.firstChild);
-              }
+        if(container.lastChild){
+                container.removeChild(container.lastChild);
+                container.appendChild(navBar);
+
         }
         welcomeMsg();
     })
     let liContact = document.createElement("li");
     liContact.textContent = "Contact Us";
     liContact.addEventListener("click", function(){
-        if(container.firstChild){
-            while (container.firstChild) {
-                container.removeChild(container.firstChild);
-              }
+        if(container.lastChild){
+                container.removeChild(container.lastChild);
+                container.appendChild(navBar);
+
         }
         welcomeMsg();
     })
