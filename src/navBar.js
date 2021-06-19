@@ -1,6 +1,7 @@
 import { welcomeMsg } from "./home";
 import { about } from "./aboutus";
 import { contact } from "./contact";
+import { menu } from "./menu"
 
 
 const navBar = function(){
@@ -58,7 +59,7 @@ const navBar = function(){
                 container.appendChild(navBar);
 
         }
-        welcomeMsg();
+        menu();
     })
     let liContact = document.createElement("li");
     liContact.textContent = "Contact Us";
