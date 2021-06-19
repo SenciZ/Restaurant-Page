@@ -1,5 +1,6 @@
 import { welcomeMsg } from "./home";
 import { about } from "./aboutus";
+import { contact } from "./contact";
 
 
 const navBar = function(){
@@ -67,7 +68,7 @@ const navBar = function(){
                 container.appendChild(navBar);
 
         }
-        welcomeMsg();
+        contact();
     })
 
 
@@ -77,8 +78,8 @@ const navBar = function(){
     left.appendChild(leftLinks)
     right.appendChild(rightLinks)
     leftLinks.appendChild(liHome);
-    leftLinks.appendChild(liMenu);
-    rightLinks.appendChild(liAbout);
+    leftLinks.appendChild(liAbout);
+    rightLinks.appendChild(liMenu);
     rightLinks.appendChild(liContact);
     logoHolder.appendChild(logoImg);
     container.appendChild(navBar);

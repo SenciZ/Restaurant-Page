@@ -103,3 +103,17 @@ body{
   z-index: -1;
   border-radius: 100px;
 }
+
+.contactDiv{
+  color: antiquewhite;
+  text-align: center;
+  width: 35%;
+  margin-top: 80px;
+  line-height: 1.6em;
+  background-color:rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 65px 65px rgba(0, 0, 0, 0.6);
+}
+
+.contactDiv a{
+  color: coral;
+}
