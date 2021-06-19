@@ -6,7 +6,7 @@
 
 Thanks for checking out this repository.
 
-View the live preview at: www.github.com
+View the live preview at: https://senciz.github.io/Restaurant-Page/
 
 ## The challenge
 
