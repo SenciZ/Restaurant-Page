@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap");
 
 * {
   margin: 0;
@@ -6,15 +6,15 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
-body{
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../images/nick-karvounis-Ciqxn7FE4vE-unsplash.jpg);
-    background-size: cover;
-    background-position-x: center;
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../images/nick-karvounis-Ciqxn7FE4vE-unsplash.jpg);
+  background-size: cover;
+  background-position-x: center;
 }
 
 .navBar {
@@ -28,6 +28,24 @@ body{
   z-index: -1;
 }
 
+@media (max-width: 500px) {
+  .logoHolder {
+    width: 100vw !important;
+    order: -1;
+  }
+
+  .navBar {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+  }
+}
+
 .leftNavHolder {
   display: flex;
 }
@@ -36,52 +54,50 @@ body{
   display: flex;
 }
 
-.logoHolder{
-    display: flex;
-    width: 30vw;
-    overflow: hidden;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
+.logoHolder {
+  display: flex;
+  width: 30vw;
+  overflow: hidden;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
 }
 .logoImg {
-    min-width: 150%;
+  min-width: 150%;
 }
 
 .rightNavHolder {
-    display: flex;
+  display: flex;
 }
 
 .rightNavLinks {
-    display: flex;
-    text-transform: capitalize;
+  display: flex;
+  text-transform: capitalize;
 }
 
-.st0{
-    fill: white !important;
+.st0 {
+  fill: white !important;
 }
 
-
-.navBar li{
-    color: rgb(190, 190, 190);
-    text-justify: center;
-    margin: 30px;
-    text-transform: uppercase;
-    font-size: .8rem;
+.navBar li {
+  color: rgb(190, 190, 190);
+  text-justify: center;
+  margin: 30px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
 }
 
-.navBar li:hover{
-    color: tomato;
-
+.navBar li:hover {
+  color: tomato;
 }
 
-.mainContainer{
+.mainContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.welcomeText{
+.welcomeText {
   color: rgb(255, 251, 242);
   text-align: center;
   margin-top: 150px;
@@ -89,8 +105,8 @@ body{
   font-size: 3.5rem;
 }
 
-.description{
-  background-color:rgba(0, 0, 0, 0.6);
+.description {
+  background-color: rgba(0, 0, 0, 0.6);
   margin-top: 50px;
   color: rgb(255, 255, 255);
   width: 50%;
@@ -104,16 +120,16 @@ body{
   border-radius: 100px;
 }
 
-.contactDiv{
+.contactDiv {
   color: antiquewhite;
   text-align: center;
   width: 35%;
   margin-top: 80px;
   line-height: 1.6em;
-  background-color:rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   box-shadow: 0px 0px 65px 65px rgba(0, 0, 0, 0.6);
 }
 
-.contactDiv a{
+.contactDiv a {
   color: coral;
 }
