@@ -1,6 +1,6 @@
 # The French Kitchen - Pure Vanilla JS SPA
 
-![Design preview for the Huddle landing page with single introductory section](./dist/images/theFrenchKitchen.png)
+![Design preview for the Huddle landing page with single introductory section](./dist/images/theFrenchKitchen.PNG)
 
 ## Welcome! 👋
 
