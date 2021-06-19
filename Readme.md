@@ -1,17 +1,15 @@
 # The French Kitchen - Pure Vanilla JS SPA
 
-![Design preview for the Huddle landing page with single introductory section](./dist/images/theFrenchKitchen.PNG)
+![Design preview for The French Kitchen single page website](./dist/images/theFrenchKitchen.PNG)
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
+Thanks for checking out this repository.
 
-[Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
-
-**To do this challenge, you need a basic understanding of HTML and CSS.**
+View the live preview at: www.github.com
 
 ## The challenge
 
-Your challenge is to build out this landing page from the designs provided in the starter code.
+Let’s use what we’ve learned and take a chance to continue practicing DOM manipulation by dynamically rendering a simple restaurant homepage! By the end, we are going to be using JavaScript alone to generate the entire contents of the website!
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+**Note: DOM elements should be created using JavaScript but styling can be done in a separate CSS file.**
